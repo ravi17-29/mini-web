@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#weather
+{
+  background-color: rgb(6, 234, 234);
+  border: 17rem outset rgb(6, 140, 147);
+  /* border: 15px; */
+  display:flex;
+  flex-direction: column;
+
+  height: 70vh;
+  width: 60vw;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+input
+{
+  /* border-top-right-radius: 5rem; */
+border-radius: 5rem;
+  /* border-bottom-right-radius: 5rem; */
+  /* text-decoration: none; */
+  outline: none;
+  margin: .5rem;
+  /* width: 80%; */
+  height: 3rem;
+  text-align: center;
+  color: rgb(175, 203, 47);
+  font-size: x-large;
+
+}
+
+button{
+  margin: 1.5rem;
+
+  border-radius: 5rem;
+  cursor: pointer;
+
+  background:linear-gradient(rgba(5, 164, 178, 0.735), rgb(238, 175, 74));
+  width: 10%;
+  height: 2rem;
+}
+i
+{
+  color: rgb(8, 2, 4);
+}
+
+@media screen and (max-width: 860px) {
+  * {
+    font-size:.8rem ;
+  }
+  button{
+    width: 40%;
+  }
+}
